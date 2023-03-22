@@ -7,8 +7,8 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="369dp"
-        android:layout_height="378dp"
+        android:layout_width="365dp"
+        android:layout_height="495dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -36,6 +36,37 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView" />
+
+        <EditText
+            android:id="@+id/et2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/somar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SOMAR" />
+
+        <Button
+            android:id="@+id/subtrair"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SUBTRAIR" />
+
+        <Button
+            android:id="@+id/multiplicar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MULTIPLICAR" />
+
+        <Button
+            android:id="@+id/dividir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DIVIDIR" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
