@@ -52,24 +52,28 @@
             android:id="@+id/somar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="somar"
             android:text="SOMAR" />
 
         <Button
             android:id="@+id/subtrair"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="subtrair"
             android:text="SUBTRAIR" />
 
         <Button
             android:id="@+id/multiplicar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="multiplicar"
             android:text="MULTIPLICAR" />
 
         <Button
             android:id="@+id/dividir"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="dividir"
             android:text="DIVIDIR" />
 
         <TextView
